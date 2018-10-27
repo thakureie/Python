@@ -1,0 +1,263 @@
+Apr  6 08:54:31 100ABHITHAK100 rsyslogd: [origin software="rsyslogd" swVersion="8.16.0" x-pid="765" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Apr  6 08:54:40 100ABHITHAK100 anacron[667]: Job `cron.daily' terminated
+Apr  6 08:54:40 100ABHITHAK100 anacron[667]: Normal exit (1 job run)
+Apr  6 08:56:04 100ABHITHAK100 systemd[1]: Started Daily apt download activities.
+Apr  6 08:56:04 100ABHITHAK100 systemd[1]: Starting Daily apt upgrade and clean activities...
+Apr  6 08:57:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985252.9055] policy: auto-activating connection 'Wired connection 1'
+Apr  6 08:57:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985252.9079] device (enp0s3): Activation: starting connection 'Wired connection 1' (0ff998f7-077d-3e78-9949-8637ac0ce86c)
+Apr  6 08:57:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985252.9139] device (enp0s3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Apr  6 08:57:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985252.9145] manager: NetworkManager state is now CONNECTING
+Apr  6 08:57:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985252.9259] device (enp0s3): state change: prepare -> config (reason 'none') [40 50 0]
+Apr  6 08:57:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985252.9391] device (enp0s3): state change: config -> ip-config (reason 'none') [50 70 0]
+Apr  6 08:57:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985252.9431] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Apr  6 08:57:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985252.9533] dhcp4 (enp0s3): dhclient started with pid 3158
+Apr  6 08:57:33 100ABHITHAK100 dhclient[3158]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x6d26d764)
+Apr  6 08:57:34 100ABHITHAK100 avahi-daemon[758]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 08:57:34 100ABHITHAK100 avahi-daemon[758]: New relevant interface enp0s3.IPv6 for mDNS.
+Apr  6 08:57:34 100ABHITHAK100 avahi-daemon[758]: Registering new address record for fe80::ff14:59d7:6655:e43b on enp0s3.*.
+Apr  6 08:57:36 100ABHITHAK100 dhclient[3158]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x6d26d764)
+Apr  6 08:57:40 100ABHITHAK100 dhclient[3158]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x6d26d764)
+Apr  6 08:57:48 100ABHITHAK100 dhclient[3158]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 3 (xid=0x27cbc958)
+Apr  6 08:57:51 100ABHITHAK100 dhclient[3158]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 4 (xid=0x27cbc958)
+Apr  6 08:57:55 100ABHITHAK100 dhclient[3158]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 6 (xid=0x27cbc958)
+Apr  6 08:58:01 100ABHITHAK100 dhclient[3158]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 16 (xid=0x27cbc958)
+Apr  6 08:58:17 100ABHITHAK100 NetworkManager[761]: <warn>  [1522985297.8172] dhcp4 (enp0s3): request timed out
+Apr  6 08:58:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985297.8173] dhcp4 (enp0s3): state changed unknown -> timeout
+Apr  6 08:58:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985297.8189] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 3158
+Apr  6 08:58:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985297.8189] dhcp4 (enp0s3): state changed timeout -> done
+Apr  6 08:58:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985297.8211] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable') [70 120 5]
+Apr  6 08:58:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985297.8235] manager: NetworkManager state is now DISCONNECTED
+Apr  6 08:58:17 100ABHITHAK100 NetworkManager[761]: <warn>  [1522985297.8286] device (enp0s3): Activation: failed for connection 'Wired connection 1'
+Apr  6 08:58:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985297.8430] device (enp0s3): state change: failed -> disconnected (reason 'none') [120 30 0]
+Apr  6 08:58:17 100ABHITHAK100 avahi-daemon[758]: Withdrawing address record for fe80::ff14:59d7:6655:e43b on enp0s3.
+Apr  6 08:58:17 100ABHITHAK100 avahi-daemon[758]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 08:58:17 100ABHITHAK100 avahi-daemon[758]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Apr  6 08:58:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985297.8804] policy: auto-activating connection 'Wired connection 1'
+Apr  6 08:58:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985297.8984] device (enp0s3): Activation: starting connection 'Wired connection 1' (0ff998f7-077d-3e78-9949-8637ac0ce86c)
+Apr  6 08:58:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985297.9028] device (enp0s3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Apr  6 08:58:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985297.9036] manager: NetworkManager state is now CONNECTING
+Apr  6 08:58:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985297.9138] device (enp0s3): state change: prepare -> config (reason 'none') [40 50 0]
+Apr  6 08:58:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985297.9287] device (enp0s3): state change: config -> ip-config (reason 'none') [50 70 0]
+Apr  6 08:58:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985297.9341] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Apr  6 08:58:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985297.9417] dhcp4 (enp0s3): dhclient started with pid 3169
+Apr  6 08:58:18 100ABHITHAK100 dhclient[3169]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x35cbf5b0)
+Apr  6 08:58:19 100ABHITHAK100 avahi-daemon[758]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 08:58:19 100ABHITHAK100 avahi-daemon[758]: New relevant interface enp0s3.IPv6 for mDNS.
+Apr  6 08:58:19 100ABHITHAK100 avahi-daemon[758]: Registering new address record for fe80::ff14:59d7:6655:e43b on enp0s3.*.
+Apr  6 08:58:21 100ABHITHAK100 dhclient[3169]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x35cbf5b0)
+Apr  6 08:58:29 100ABHITHAK100 dhclient[3169]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 3 (xid=0xfdaad90b)
+Apr  6 08:58:32 100ABHITHAK100 dhclient[3169]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 5 (xid=0xfdaad90b)
+Apr  6 08:58:37 100ABHITHAK100 dhclient[3169]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 12 (xid=0xfdaad90b)
+Apr  6 08:58:49 100ABHITHAK100 dhclient[3169]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 12 (xid=0xfdaad90b)
+Apr  6 08:59:01 100ABHITHAK100 dhclient[3169]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 9 (xid=0xfdaad90b)
+Apr  6 08:59:02 100ABHITHAK100 NetworkManager[761]: <warn>  [1522985342.8173] dhcp4 (enp0s3): request timed out
+Apr  6 08:59:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985342.8173] dhcp4 (enp0s3): state changed unknown -> timeout
+Apr  6 08:59:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985342.8190] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 3169
+Apr  6 08:59:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985342.8190] dhcp4 (enp0s3): state changed timeout -> done
+Apr  6 08:59:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985342.8194] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable') [70 120 5]
+Apr  6 08:59:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985342.8197] manager: NetworkManager state is now DISCONNECTED
+Apr  6 08:59:02 100ABHITHAK100 NetworkManager[761]: <warn>  [1522985342.8238] device (enp0s3): Activation: failed for connection 'Wired connection 1'
+Apr  6 08:59:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985342.8318] device (enp0s3): state change: failed -> disconnected (reason 'none') [120 30 0]
+Apr  6 08:59:02 100ABHITHAK100 avahi-daemon[758]: Withdrawing address record for fe80::ff14:59d7:6655:e43b on enp0s3.
+Apr  6 08:59:02 100ABHITHAK100 avahi-daemon[758]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 08:59:02 100ABHITHAK100 avahi-daemon[758]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Apr  6 08:59:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985342.8620] policy: auto-activating connection 'Wired connection 1'
+Apr  6 08:59:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985342.8776] device (enp0s3): Activation: starting connection 'Wired connection 1' (0ff998f7-077d-3e78-9949-8637ac0ce86c)
+Apr  6 08:59:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985342.8805] device (enp0s3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Apr  6 08:59:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985342.8811] manager: NetworkManager state is now CONNECTING
+Apr  6 08:59:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985342.8915] device (enp0s3): state change: prepare -> config (reason 'none') [40 50 0]
+Apr  6 08:59:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985342.8983] device (enp0s3): state change: config -> ip-config (reason 'none') [50 70 0]
+Apr  6 08:59:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985342.9115] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Apr  6 08:59:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985342.9203] dhcp4 (enp0s3): dhclient started with pid 3179
+Apr  6 08:59:03 100ABHITHAK100 dhclient[3179]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x50fdfab6)
+Apr  6 08:59:04 100ABHITHAK100 avahi-daemon[758]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 08:59:04 100ABHITHAK100 avahi-daemon[758]: New relevant interface enp0s3.IPv6 for mDNS.
+Apr  6 08:59:04 100ABHITHAK100 avahi-daemon[758]: Registering new address record for fe80::ff14:59d7:6655:e43b on enp0s3.*.
+Apr  6 08:59:06 100ABHITHAK100 dhclient[3179]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x50fdfab6)
+Apr  6 08:59:14 100ABHITHAK100 dhclient[3179]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 3 (xid=0x68fedd7b)
+Apr  6 08:59:17 100ABHITHAK100 dhclient[3179]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 4 (xid=0x68fedd7b)
+Apr  6 08:59:21 100ABHITHAK100 dhclient[3179]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 7 (xid=0x68fedd7b)
+Apr  6 08:59:28 100ABHITHAK100 dhclient[3179]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 14 (xid=0x68fedd7b)
+Apr  6 08:59:42 100ABHITHAK100 dhclient[3179]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 11 (xid=0x68fedd7b)
+Apr  6 08:59:47 100ABHITHAK100 NetworkManager[761]: <warn>  [1522985387.8171] dhcp4 (enp0s3): request timed out
+Apr  6 08:59:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985387.8172] dhcp4 (enp0s3): state changed unknown -> timeout
+Apr  6 08:59:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985387.8207] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 3179
+Apr  6 08:59:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985387.8207] dhcp4 (enp0s3): state changed timeout -> done
+Apr  6 08:59:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985387.8216] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable') [70 120 5]
+Apr  6 08:59:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985387.8235] manager: NetworkManager state is now DISCONNECTED
+Apr  6 08:59:47 100ABHITHAK100 NetworkManager[761]: <warn>  [1522985387.8257] device (enp0s3): Activation: failed for connection 'Wired connection 1'
+Apr  6 08:59:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985387.8388] device (enp0s3): state change: failed -> disconnected (reason 'none') [120 30 0]
+Apr  6 08:59:47 100ABHITHAK100 avahi-daemon[758]: Withdrawing address record for fe80::ff14:59d7:6655:e43b on enp0s3.
+Apr  6 08:59:47 100ABHITHAK100 avahi-daemon[758]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 08:59:47 100ABHITHAK100 avahi-daemon[758]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Apr  6 08:59:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985387.8747] policy: auto-activating connection 'Wired connection 1'
+Apr  6 08:59:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985387.8958] device (enp0s3): Activation: starting connection 'Wired connection 1' (0ff998f7-077d-3e78-9949-8637ac0ce86c)
+Apr  6 08:59:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985387.8968] device (enp0s3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Apr  6 08:59:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985387.8985] manager: NetworkManager state is now CONNECTING
+Apr  6 08:59:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985387.9018] device (enp0s3): state change: prepare -> config (reason 'none') [40 50 0]
+Apr  6 08:59:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985387.9154] device (enp0s3): state change: config -> ip-config (reason 'none') [50 70 0]
+Apr  6 08:59:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985387.9184] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Apr  6 08:59:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985387.9266] dhcp4 (enp0s3): dhclient started with pid 3188
+Apr  6 08:59:48 100ABHITHAK100 dhclient[3188]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x7de8636e)
+Apr  6 08:59:49 100ABHITHAK100 avahi-daemon[758]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 08:59:49 100ABHITHAK100 avahi-daemon[758]: New relevant interface enp0s3.IPv6 for mDNS.
+Apr  6 08:59:49 100ABHITHAK100 avahi-daemon[758]: Registering new address record for fe80::ff14:59d7:6655:e43b on enp0s3.*.
+Apr  6 08:59:51 100ABHITHAK100 dhclient[3188]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x7de8636e)
+Apr  6 08:59:58 100ABHITHAK100 dhclient[3188]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x7de8636e)
+Apr  6 09:00:05 100ABHITHAK100 dhclient[3188]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 3 (xid=0xd0004e21)
+Apr  6 09:00:08 100ABHITHAK100 dhclient[3188]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 7 (xid=0xd0004e21)
+Apr  6 09:00:15 100ABHITHAK100 dhclient[3188]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 9 (xid=0xd0004e21)
+Apr  6 09:00:24 100ABHITHAK100 dhclient[3188]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 15 (xid=0xd0004e21)
+Apr  6 09:00:32 100ABHITHAK100 NetworkManager[761]: <warn>  [1522985432.8170] dhcp4 (enp0s3): request timed out
+Apr  6 09:00:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985432.8171] dhcp4 (enp0s3): state changed unknown -> timeout
+Apr  6 09:00:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985432.8180] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 3188
+Apr  6 09:00:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985432.8181] dhcp4 (enp0s3): state changed timeout -> done
+Apr  6 09:00:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985432.8184] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable') [70 120 5]
+Apr  6 09:00:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985432.8186] manager: NetworkManager state is now DISCONNECTED
+Apr  6 09:00:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985432.8188] policy: disabling autoconnect for connection 'Wired connection 1'.
+Apr  6 09:00:32 100ABHITHAK100 NetworkManager[761]: <warn>  [1522985432.8190] device (enp0s3): Activation: failed for connection 'Wired connection 1'
+Apr  6 09:00:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985432.8311] device (enp0s3): state change: failed -> disconnected (reason 'none') [120 30 0]
+Apr  6 09:00:32 100ABHITHAK100 avahi-daemon[758]: Withdrawing address record for fe80::ff14:59d7:6655:e43b on enp0s3.
+Apr  6 09:00:32 100ABHITHAK100 avahi-daemon[758]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 09:00:32 100ABHITHAK100 avahi-daemon[758]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Apr  6 09:02:12 100ABHITHAK100 apt.systemd.daily[2942]: An error occurred: 'Temporary failure resolving 'in.archive.ubuntu.com''
+Apr  6 09:02:12 100ABHITHAK100 apt.systemd.daily[2942]: The URI 'http://security.ubuntu.com/ubuntu/pool/main/g/gcc-5/libquadmath0_5.4.0-6ubuntu1~16.04.9_amd64.deb' failed to download, aborting
+Apr  6 09:02:12 100ABHITHAK100 systemd[1]: Started Daily apt upgrade and clean activities.
+Apr  6 09:02:12 100ABHITHAK100 systemd[1]: Startup finished in 11.563s (kernel) + 12min 45.277s (userspace) = 12min 56.841s.
+Apr  6 09:04:31 100ABHITHAK100 /usr/lib/snapd/snapd[756]: snapmgr.go:411: Cannot prepare auto-refresh change: Post https://search.apps.ubuntu.com/api/v1/snaps/metadata: dial tcp: lookup search.apps.ubuntu.com on [::1]:53: read udp [::1]:60802->[::1]:53: read: connection refused
+Apr  6 09:04:31 100ABHITHAK100 systemd[1]: Starting Cleanup of Temporary Directories...
+Apr  6 09:04:31 100ABHITHAK100 snapd[756]: 2018/04/06 09:04:31.969755 snapmgr.go:411: Cannot prepare auto-refresh change: Post https://search.apps.ubuntu.com/api/v1/snaps/metadata: dial tcp: lookup search.apps.ubuntu.com on [::1]:53: read udp [::1]:60802->[::1]:53: read: connection refused
+Apr  6 09:04:31 100ABHITHAK100 snapd[756]: 2018/04/06 09:04:31.969808 stateengine.go:98: state ensure error: Post https://search.apps.ubuntu.com/api/v1/snaps/metadata: dial tcp: lookup search.apps.ubuntu.com on [::1]:53: read udp [::1]:60802->[::1]:53: read: connection refused
+Apr  6 09:04:31 100ABHITHAK100 /usr/lib/snapd/snapd[756]: stateengine.go:98: state ensure error: Post https://search.apps.ubuntu.com/api/v1/snaps/metadata: dial tcp: lookup search.apps.ubuntu.com on [::1]:53: read udp [::1]:60802->[::1]:53: read: connection refused
+Apr  6 09:04:31 100ABHITHAK100 systemd-tmpfiles[3238]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+Apr  6 09:04:31 100ABHITHAK100 systemd[1]: Started Cleanup of Temporary Directories.
+Apr  6 09:05:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985732.8618] policy: auto-activating connection 'Wired connection 1'
+Apr  6 09:05:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985732.8641] device (enp0s3): Activation: starting connection 'Wired connection 1' (0ff998f7-077d-3e78-9949-8637ac0ce86c)
+Apr  6 09:05:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985732.8679] device (enp0s3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Apr  6 09:05:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985732.8694] manager: NetworkManager state is now CONNECTING
+Apr  6 09:05:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985732.8748] device (enp0s3): state change: prepare -> config (reason 'none') [40 50 0]
+Apr  6 09:05:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985732.8814] device (enp0s3): state change: config -> ip-config (reason 'none') [50 70 0]
+Apr  6 09:05:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985732.8827] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Apr  6 09:05:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985732.8906] dhcp4 (enp0s3): dhclient started with pid 3246
+Apr  6 09:05:32 100ABHITHAK100 dhclient[3246]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x4742c735)
+Apr  6 09:05:34 100ABHITHAK100 avahi-daemon[758]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 09:05:34 100ABHITHAK100 avahi-daemon[758]: New relevant interface enp0s3.IPv6 for mDNS.
+Apr  6 09:05:34 100ABHITHAK100 avahi-daemon[758]: Registering new address record for fe80::ff14:59d7:6655:e43b on enp0s3.*.
+Apr  6 09:05:35 100ABHITHAK100 dhclient[3246]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x4742c735)
+Apr  6 09:05:38 100ABHITHAK100 dhclient[3246]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x4742c735)
+Apr  6 09:05:44 100ABHITHAK100 dhclient[3246]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 3 (xid=0x72decc72)
+Apr  6 09:05:47 100ABHITHAK100 dhclient[3246]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 8 (xid=0x72decc72)
+Apr  6 09:05:55 100ABHITHAK100 dhclient[3246]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 12 (xid=0x72decc72)
+Apr  6 09:06:07 100ABHITHAK100 dhclient[3246]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 15 (xid=0x72decc72)
+Apr  6 09:06:17 100ABHITHAK100 NetworkManager[761]: <warn>  [1522985777.8184] dhcp4 (enp0s3): request timed out
+Apr  6 09:06:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985777.8184] dhcp4 (enp0s3): state changed unknown -> timeout
+Apr  6 09:06:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985777.8202] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 3246
+Apr  6 09:06:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985777.8203] dhcp4 (enp0s3): state changed timeout -> done
+Apr  6 09:06:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985777.8211] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable') [70 120 5]
+Apr  6 09:06:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985777.8214] manager: NetworkManager state is now DISCONNECTED
+Apr  6 09:06:17 100ABHITHAK100 NetworkManager[761]: <warn>  [1522985777.8251] device (enp0s3): Activation: failed for connection 'Wired connection 1'
+Apr  6 09:06:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985777.8342] device (enp0s3): state change: failed -> disconnected (reason 'none') [120 30 0]
+Apr  6 09:06:17 100ABHITHAK100 avahi-daemon[758]: Withdrawing address record for fe80::ff14:59d7:6655:e43b on enp0s3.
+Apr  6 09:06:17 100ABHITHAK100 avahi-daemon[758]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 09:06:17 100ABHITHAK100 avahi-daemon[758]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Apr  6 09:06:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985777.8721] policy: auto-activating connection 'Wired connection 1'
+Apr  6 09:06:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985777.8765] device (enp0s3): Activation: starting connection 'Wired connection 1' (0ff998f7-077d-3e78-9949-8637ac0ce86c)
+Apr  6 09:06:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985777.8818] device (enp0s3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Apr  6 09:06:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985777.8829] manager: NetworkManager state is now CONNECTING
+Apr  6 09:06:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985777.8932] device (enp0s3): state change: prepare -> config (reason 'none') [40 50 0]
+Apr  6 09:06:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985777.8955] device (enp0s3): state change: config -> ip-config (reason 'none') [50 70 0]
+Apr  6 09:06:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985777.9042] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Apr  6 09:06:17 100ABHITHAK100 NetworkManager[761]: <info>  [1522985777.9147] dhcp4 (enp0s3): dhclient started with pid 3258
+Apr  6 09:06:17 100ABHITHAK100 dhclient[3258]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x7dbf8ea0)
+Apr  6 09:06:19 100ABHITHAK100 avahi-daemon[758]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 09:06:19 100ABHITHAK100 avahi-daemon[758]: New relevant interface enp0s3.IPv6 for mDNS.
+Apr  6 09:06:19 100ABHITHAK100 avahi-daemon[758]: Registering new address record for fe80::ff14:59d7:6655:e43b on enp0s3.*.
+Apr  6 09:06:20 100ABHITHAK100 dhclient[3258]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x7dbf8ea0)
+Apr  6 09:06:28 100ABHITHAK100 dhclient[3258]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 3 (xid=0xd02f1310)
+Apr  6 09:06:31 100ABHITHAK100 dhclient[3258]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 3 (xid=0xd02f1310)
+Apr  6 09:06:34 100ABHITHAK100 dhclient[3258]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 7 (xid=0xd02f1310)
+Apr  6 09:06:41 100ABHITHAK100 dhclient[3258]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 8 (xid=0xd02f1310)
+Apr  6 09:06:49 100ABHITHAK100 dhclient[3258]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 14 (xid=0xd02f1310)
+Apr  6 09:07:02 100ABHITHAK100 NetworkManager[761]: <warn>  [1522985822.8188] dhcp4 (enp0s3): request timed out
+Apr  6 09:07:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985822.8189] dhcp4 (enp0s3): state changed unknown -> timeout
+Apr  6 09:07:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985822.8232] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 3258
+Apr  6 09:07:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985822.8234] dhcp4 (enp0s3): state changed timeout -> done
+Apr  6 09:07:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985822.8477] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable') [70 120 5]
+Apr  6 09:07:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985822.8531] manager: NetworkManager state is now DISCONNECTED
+Apr  6 09:07:02 100ABHITHAK100 NetworkManager[761]: <warn>  [1522985822.8595] device (enp0s3): Activation: failed for connection 'Wired connection 1'
+Apr  6 09:07:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985822.8686] device (enp0s3): state change: failed -> disconnected (reason 'none') [120 30 0]
+Apr  6 09:07:02 100ABHITHAK100 avahi-daemon[758]: Withdrawing address record for fe80::ff14:59d7:6655:e43b on enp0s3.
+Apr  6 09:07:02 100ABHITHAK100 avahi-daemon[758]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 09:07:02 100ABHITHAK100 avahi-daemon[758]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Apr  6 09:07:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985822.8907] policy: auto-activating connection 'Wired connection 1'
+Apr  6 09:07:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985822.8942] device (enp0s3): Activation: starting connection 'Wired connection 1' (0ff998f7-077d-3e78-9949-8637ac0ce86c)
+Apr  6 09:07:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985822.8958] device (enp0s3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Apr  6 09:07:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985822.8984] manager: NetworkManager state is now CONNECTING
+Apr  6 09:07:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985822.9019] device (enp0s3): state change: prepare -> config (reason 'none') [40 50 0]
+Apr  6 09:07:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985822.9134] device (enp0s3): state change: config -> ip-config (reason 'none') [50 70 0]
+Apr  6 09:07:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985822.9154] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Apr  6 09:07:02 100ABHITHAK100 NetworkManager[761]: <info>  [1522985822.9189] dhcp4 (enp0s3): dhclient started with pid 3268
+Apr  6 09:07:02 100ABHITHAK100 dhclient[3268]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x586dd118)
+Apr  6 09:07:04 100ABHITHAK100 avahi-daemon[758]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 09:07:04 100ABHITHAK100 avahi-daemon[758]: New relevant interface enp0s3.IPv6 for mDNS.
+Apr  6 09:07:04 100ABHITHAK100 avahi-daemon[758]: Registering new address record for fe80::ff14:59d7:6655:e43b on enp0s3.*.
+Apr  6 09:07:05 100ABHITHAK100 dhclient[3268]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x586dd118)
+Apr  6 09:07:09 100ABHITHAK100 dhclient[3268]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x586dd118)
+Apr  6 09:07:19 100ABHITHAK100 dhclient[3268]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 3 (xid=0x11dd9869)
+Apr  6 09:07:22 100ABHITHAK100 dhclient[3268]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 6 (xid=0x11dd9869)
+Apr  6 09:07:28 100ABHITHAK100 dhclient[3268]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 14 (xid=0x11dd9869)
+Apr  6 09:07:42 100ABHITHAK100 dhclient[3268]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 16 (xid=0x11dd9869)
+Apr  6 09:07:47 100ABHITHAK100 NetworkManager[761]: <warn>  [1522985867.8168] dhcp4 (enp0s3): request timed out
+Apr  6 09:07:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985867.8169] dhcp4 (enp0s3): state changed unknown -> timeout
+Apr  6 09:07:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985867.8182] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 3268
+Apr  6 09:07:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985867.8183] dhcp4 (enp0s3): state changed timeout -> done
+Apr  6 09:07:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985867.8187] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable') [70 120 5]
+Apr  6 09:07:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985867.8205] manager: NetworkManager state is now DISCONNECTED
+Apr  6 09:07:47 100ABHITHAK100 NetworkManager[761]: <warn>  [1522985867.8209] device (enp0s3): Activation: failed for connection 'Wired connection 1'
+Apr  6 09:07:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985867.8294] device (enp0s3): state change: failed -> disconnected (reason 'none') [120 30 0]
+Apr  6 09:07:47 100ABHITHAK100 avahi-daemon[758]: Withdrawing address record for fe80::ff14:59d7:6655:e43b on enp0s3.
+Apr  6 09:07:47 100ABHITHAK100 avahi-daemon[758]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 09:07:47 100ABHITHAK100 avahi-daemon[758]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Apr  6 09:07:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985867.8539] policy: auto-activating connection 'Wired connection 1'
+Apr  6 09:07:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985867.8847] device (enp0s3): Activation: starting connection 'Wired connection 1' (0ff998f7-077d-3e78-9949-8637ac0ce86c)
+Apr  6 09:07:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985867.8911] device (enp0s3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Apr  6 09:07:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985867.8920] manager: NetworkManager state is now CONNECTING
+Apr  6 09:07:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985867.9053] device (enp0s3): state change: prepare -> config (reason 'none') [40 50 0]
+Apr  6 09:07:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985867.9117] device (enp0s3): state change: config -> ip-config (reason 'none') [50 70 0]
+Apr  6 09:07:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985867.9175] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Apr  6 09:07:47 100ABHITHAK100 NetworkManager[761]: <info>  [1522985867.9219] dhcp4 (enp0s3): dhclient started with pid 3279
+Apr  6 09:07:47 100ABHITHAK100 dhclient[3279]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x21e38b88)
+Apr  6 09:07:49 100ABHITHAK100 avahi-daemon[758]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 09:07:49 100ABHITHAK100 avahi-daemon[758]: New relevant interface enp0s3.IPv6 for mDNS.
+Apr  6 09:07:49 100ABHITHAK100 avahi-daemon[758]: Registering new address record for fe80::ff14:59d7:6655:e43b on enp0s3.*.
+Apr  6 09:07:50 100ABHITHAK100 dhclient[3279]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x21e38b88)
+Apr  6 09:07:55 100ABHITHAK100 dhclient[3279]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x21e38b88)
+Apr  6 09:08:06 100ABHITHAK100 dhclient[3279]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 3 (xid=0x2f943446)
+Apr  6 09:08:09 100ABHITHAK100 dhclient[3279]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 4 (xid=0x2f943446)
+Apr  6 09:08:13 100ABHITHAK100 dhclient[3279]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 9 (xid=0x2f943446)
+Apr  6 09:08:22 100ABHITHAK100 dhclient[3279]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 15 (xid=0x2f943446)
+Apr  6 09:08:32 100ABHITHAK100 NetworkManager[761]: <warn>  [1522985912.8170] dhcp4 (enp0s3): request timed out
+Apr  6 09:08:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985912.8171] dhcp4 (enp0s3): state changed unknown -> timeout
+Apr  6 09:08:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985912.8184] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 3279
+Apr  6 09:08:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985912.8185] dhcp4 (enp0s3): state changed timeout -> done
+Apr  6 09:08:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985912.8193] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable') [70 120 5]
+Apr  6 09:08:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985912.8226] manager: NetworkManager state is now DISCONNECTED
+Apr  6 09:08:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985912.8280] policy: disabling autoconnect for connection 'Wired connection 1'.
+Apr  6 09:08:32 100ABHITHAK100 NetworkManager[761]: <warn>  [1522985912.8282] device (enp0s3): Activation: failed for connection 'Wired connection 1'
+Apr  6 09:08:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522985912.8414] device (enp0s3): state change: failed -> disconnected (reason 'none') [120 30 0]
+Apr  6 09:08:32 100ABHITHAK100 avahi-daemon[758]: Withdrawing address record for fe80::ff14:59d7:6655:e43b on enp0s3.
+Apr  6 09:08:32 100ABHITHAK100 avahi-daemon[758]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 09:08:32 100ABHITHAK100 avahi-daemon[758]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Apr  6 09:13:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522986212.9059] policy: auto-activating connection 'Wired connection 1'
+Apr  6 09:13:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522986212.9095] device (enp0s3): Activation: starting connection 'Wired connection 1' (0ff998f7-077d-3e78-9949-8637ac0ce86c)
+Apr  6 09:13:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522986212.9148] device (enp0s3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Apr  6 09:13:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522986212.9163] manager: NetworkManager state is now CONNECTING
+Apr  6 09:13:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522986212.9192] device (enp0s3): state change: prepare -> config (reason 'none') [40 50 0]
+Apr  6 09:13:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522986212.9358] device (enp0s3): state change: config -> ip-config (reason 'none') [50 70 0]
+Apr  6 09:13:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522986212.9382] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Apr  6 09:13:32 100ABHITHAK100 NetworkManager[761]: <info>  [1522986212.9471] dhcp4 (enp0s3): dhclient started with pid 3312
+Apr  6 09:13:33 100ABHITHAK100 dhclient[3312]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x4baf65bf)
+Apr  6 09:13:34 100ABHITHAK100 avahi-daemon[758]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 09:13:34 100ABHITHAK100 avahi-daemon[758]: New relevant interface enp0s3.IPv6 for mDNS.
+Apr  6 09:13:34 100ABHITHAK100 avahi-daemon[758]: Registering new address record for fe80::ff14:59d7:6655:e43b on enp0s3.*.
+Apr  6 09:13:36 100ABHITHAK100 dhclient[3312]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x4baf65bf)

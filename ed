@@ -1,0 +1,16 @@
+--- Physical volume ---
+  PV Name               /dev/sda5
+  VG Name               ubuntu-vg
+  PV Size               30.98 GiB / not usable 3.00 MiB
+  Allocatable           yes (but full)
+  PE Size               4.00 MiB
+  Total PE              7929
+  Free PE               0
+  Allocated PE          7929
+  PV UUID               FDIuI7-j50r-mgXn-v8C1-6Lb7-J9Bs-Y1XAlV
+   
+  PV         VG        Fmt  Attr PSize  PFree
+  /dev/sda5  ubuntu-vg lvm2 a--  30.97g    0 
+  LV     VG        Attr       LSize  Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
+  root   ubuntu-vg -wi-ao---- 28.97g                                                    
+  swap_1 ubuntu-vg -wi-ao----  2.00g

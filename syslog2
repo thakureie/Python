@@ -1,0 +1,122 @@
+Apr  6 08:54:31 SYSLO65 rsyslogd: [origin software="rsyslogd" swVersion="8.16.0" x-pid="765" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Apr  6 08:54:40 SYSLO65 anacron[667]: Job `cron.daily' terminated
+Apr  6 08:54:40 SYSLO65 anacron[667]: Normal exit (1 job run)
+Apr  6 08:56:04 SYSLO65 systemd[1]: Started Daily apt download activities.
+Apr  6 08:56:04 SYSLO65 systemd[1]: Starting Daily apt upgrade and clean activities...
+Apr  6 08:57:32 SYSLO65 NetworkManager[761]: <info>  [1522985252.9055] policy: auto-activating connection 'Wired connection 1'
+Apr  6 08:57:32 SYSLO65 NetworkManager[761]: <info>  [1522985252.9079] device (enp0s3): Activation: starting connection 'Wired connection 1' (0ff998f7-077d-3e78-9949-8637ac0ce86c)
+Apr  6 08:57:32 SYSLO65 NetworkManager[761]: <info>  [1522985252.9139] device (enp0s3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Apr  6 08:57:32 SYSLO65 NetworkManager[761]: <info>  [1522985252.9145] manager: NetworkManager state is now CONNECTING
+Apr  6 08:57:32 SYSLO65 NetworkManager[761]: <info>  [1522985252.9259] device (enp0s3): state change: prepare -> config (reason 'none') [40 50 0]
+Apr  6 08:57:32 SYSLO65 NetworkManager[761]: <info>  [1522985252.9391] device (enp0s3): state change: config -> ip-config (reason 'none') [50 70 0]
+Apr  6 08:57:32 SYSLO65 NetworkManager[761]: <info>  [1522985252.9431] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Apr  6 08:57:32 SYSLO65 NetworkManager[761]: <info>  [1522985252.9533] dhcp4 (enp0s3): dhclient started with pid 3158
+Apr  6 08:57:33 SYSLO65 dhclient[3158]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x6d26d764)
+Apr  6 08:57:34 SYSLO65 avahi-daemon[758]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 08:57:34 SYSLO65 avahi-daemon[758]: New relevant interface enp0s3.IPv6 for mDNS.
+Apr  6 08:57:34 SYSLO65 avahi-daemon[758]: Registering new address record for fe80::ff14:59d7:6655:e43b on enp0s3.*.
+Apr  6 08:57:36 SYSLO65 dhclient[3158]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x6d26d764)
+Apr  6 08:57:40 SYSLO65 dhclient[3158]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x6d26d764)
+Apr  6 08:57:48 SYSLO65 dhclient[3158]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 3 (xid=0x27cbc958)
+Apr  6 08:57:51 SYSLO65 dhclient[3158]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 4 (xid=0x27cbc958)
+Apr  6 08:57:55 SYSLO65 dhclient[3158]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 6 (xid=0x27cbc958)
+Apr  6 08:58:01 SYSLO65 dhclient[3158]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 16 (xid=0x27cbc958)
+Apr  6 08:58:17 SYSLO65 NetworkManager[761]: <warn>  [1522985297.8172] dhcp4 (enp0s3): request timed out
+Apr  6 08:58:17 SYSLO65 NetworkManager[761]: <info>  [1522985297.8173] dhcp4 (enp0s3): state changed unknown -> timeout
+Apr  6 08:58:17 SYSLO65 NetworkManager[761]: <info>  [1522985297.8189] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 3158
+Apr  6 08:58:17 SYSLO65 NetworkManager[761]: <info>  [1522985297.8189] dhcp4 (enp0s3): state changed timeout -> done
+Apr  6 08:58:17 SYSLO65 NetworkManager[761]: <info>  [1522985297.8211] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable') [70 120 5]
+Apr  6 08:58:17 SYSLO65 NetworkManager[761]: <info>  [1522985297.8235] manager: NetworkManager state is now DISCONNECTED
+Apr  6 08:58:17 SYSLO65 NetworkManager[761]: <warn>  [1522985297.8286] device (enp0s3): Activation: failed for connection 'Wired connection 1'
+Apr  6 08:58:17 SYSLO65 NetworkManager[761]: <info>  [1522985297.8430] device (enp0s3): state change: failed -> disconnected (reason 'none') [120 30 0]
+Apr  6 08:58:17 SYSLO65 avahi-daemon[758]: Withdrawing address record for fe80::ff14:59d7:6655:e43b on enp0s3.
+Apr  6 08:58:17 SYSLO65 avahi-daemon[758]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 08:58:17 SYSLO65 avahi-daemon[758]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Apr  6 08:58:17 SYSLO65 NetworkManager[761]: <info>  [1522985297.8804] policy: auto-activating connection 'Wired connection 1'
+Apr  6 08:58:17 SYSLO65 NetworkManager[761]: <info>  [1522985297.8984] device (enp0s3): Activation: starting connection 'Wired connection 1' (0ff998f7-077d-3e78-9949-8637ac0ce86c)
+Apr  6 08:58:17 SYSLO65 NetworkManager[761]: <info>  [1522985297.9028] device (enp0s3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Apr  6 08:58:17 SYSLO65 NetworkManager[761]: <info>  [1522985297.9036] manager: NetworkManager state is now CONNECTING
+Apr  6 08:58:17 SYSLO65 NetworkManager[761]: <info>  [1522985297.9138] device (enp0s3): state change: prepare -> config (reason 'none') [40 50 0]
+Apr  6 08:58:17 SYSLO65 NetworkManager[761]: <info>  [1522985297.9287] device (enp0s3): state change: config -> ip-config (reason 'none') [50 70 0]
+Apr  6 08:58:17 SYSLO65 NetworkManager[761]: <info>  [1522985297.9341] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Apr  6 08:58:17 SYSLO65 NetworkManager[761]: <info>  [1522985297.9417] dhcp4 (enp0s3): dhclient started with pid 3169
+Apr  6 08:58:18 SYSLO65 dhclient[3169]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x35cbf5b0)
+Apr  6 08:58:19 SYSLO65 avahi-daemon[758]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 08:58:19 SYSLO65 avahi-daemon[758]: New relevant interface enp0s3.IPv6 for mDNS.
+Apr  6 08:58:19 SYSLO65 avahi-daemon[758]: Registering new address record for fe80::ff14:59d7:6655:e43b on enp0s3.*.
+Apr  6 08:58:21 SYSLO65 dhclient[3169]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x35cbf5b0)
+Apr  6 08:58:29 SYSLO65 dhclient[3169]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 3 (xid=0xfdaad90b)
+Apr  6 08:58:32 SYSLO65 dhclient[3169]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 5 (xid=0xfdaad90b)
+Apr  6 08:58:37 SYSLO65 dhclient[3169]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 12 (xid=0xfdaad90b)
+Apr  6 08:58:49 SYSLO65 dhclient[3169]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 12 (xid=0xfdaad90b)
+Apr  6 08:59:01 SYSLO65 dhclient[3169]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 9 (xid=0xfdaad90b)
+Apr  6 08:59:02 SYSLO65 NetworkManager[761]: <warn>  [1522985342.8173] dhcp4 (enp0s3): request timed out
+Apr  6 08:59:02 SYSLO65 NetworkManager[761]: <info>  [1522985342.8173] dhcp4 (enp0s3): state changed unknown -> timeout
+Apr  6 08:59:02 SYSLO65 NetworkManager[761]: <info>  [1522985342.8190] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 3169
+Apr  6 08:59:02 SYSLO65 NetworkManager[761]: <info>  [1522985342.8190] dhcp4 (enp0s3): state changed timeout -> done
+Apr  6 08:59:02 SYSLO65 NetworkManager[761]: <info>  [1522985342.8194] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable') [70 120 5]
+Apr  6 08:59:02 SYSLO65 NetworkManager[761]: <info>  [1522985342.8197] manager: NetworkManager state is now DISCONNECTED
+Apr  6 08:59:02 SYSLO65 NetworkManager[761]: <warn>  [1522985342.8238] device (enp0s3): Activation: failed for connection 'Wired connection 1'
+Apr  6 08:59:02 SYSLO65 NetworkManager[761]: <info>  [1522985342.8318] device (enp0s3): state change: failed -> disconnected (reason 'none') [120 30 0]
+Apr  6 08:59:02 SYSLO65 avahi-daemon[758]: Withdrawing address record for fe80::ff14:59d7:6655:e43b on enp0s3.
+Apr  6 08:59:02 SYSLO65 avahi-daemon[758]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 08:59:02 SYSLO65 avahi-daemon[758]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Apr  6 08:59:02 SYSLO65 NetworkManager[761]: <info>  [1522985342.8620] policy: auto-activating connection 'Wired connection 1'
+Apr  6 08:59:02 SYSLO65 NetworkManager[761]: <info>  [1522985342.8776] device (enp0s3): Activation: starting connection 'Wired connection 1' (0ff998f7-077d-3e78-9949-8637ac0ce86c)
+Apr  6 08:59:02 SYSLO65 NetworkManager[761]: <info>  [1522985342.8805] device (enp0s3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Apr  6 08:59:02 SYSLO65 NetworkManager[761]: <info>  [1522985342.8811] manager: NetworkManager state is now CONNECTING
+Apr  6 08:59:02 SYSLO65 NetworkManager[761]: <info>  [1522985342.8915] device (enp0s3): state change: prepare -> config (reason 'none') [40 50 0]
+Apr  6 08:59:02 SYSLO65 NetworkManager[761]: <info>  [1522985342.8983] device (enp0s3): state change: config -> ip-config (reason 'none') [50 70 0]
+Apr  6 08:59:02 SYSLO65 NetworkManager[761]: <info>  [1522985342.9115] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Apr  6 08:59:02 SYSLO65 NetworkManager[761]: <info>  [1522985342.9203] dhcp4 (enp0s3): dhclient started with pid 3179
+Apr  6 08:59:03 SYSLO65 dhclient[3179]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x50fdfab6)
+Apr  6 08:59:04 SYSLO65 avahi-daemon[758]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 08:59:04 SYSLO65 avahi-daemon[758]: New relevant interface enp0s3.IPv6 for mDNS.
+Apr  6 08:59:04 SYSLO65 avahi-daemon[758]: Registering new address record for fe80::ff14:59d7:6655:e43b on enp0s3.*.
+Apr  6 08:59:06 SYSLO65 dhclient[3179]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x50fdfab6)
+Apr  6 08:59:14 SYSLO65 dhclient[3179]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 3 (xid=0x68fedd7b)
+Apr  6 08:59:17 SYSLO65 dhclient[3179]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 4 (xid=0x68fedd7b)
+Apr  6 08:59:21 SYSLO65 dhclient[3179]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 7 (xid=0x68fedd7b)
+Apr  6 08:59:28 SYSLO65 dhclient[3179]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 14 (xid=0x68fedd7b)
+Apr  6 08:59:42 SYSLO65 dhclient[3179]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 11 (xid=0x68fedd7b)
+Apr  6 08:59:47 SYSLO65 NetworkManager[761]: <warn>  [1522985387.8171] dhcp4 (enp0s3): request timed out
+Apr  6 08:59:47 SYSLO65 NetworkManager[761]: <info>  [1522985387.8172] dhcp4 (enp0s3): state changed unknown -> timeout
+Apr  6 08:59:47 SYSLO65 NetworkManager[761]: <info>  [1522985387.8207] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 3179
+Apr  6 08:59:47 SYSLO65 NetworkManager[761]: <info>  [1522985387.8207] dhcp4 (enp0s3): state changed timeout -> done
+Apr  6 08:59:47 SYSLO65 NetworkManager[761]: <info>  [1522985387.8216] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable') [70 120 5]
+Apr  6 08:59:47 SYSLO65 NetworkManager[761]: <info>  [1522985387.8235] manager: NetworkManager state is now DISCONNECTED
+Apr  6 08:59:47 SYSLO65 NetworkManager[761]: <warn>  [1522985387.8257] device (enp0s3): Activation: failed for connection 'Wired connection 1'
+Apr  6 08:59:47 SYSLO65 NetworkManager[761]: <info>  [1522985387.8388] device (enp0s3): state change: failed -> disconnected (reason 'none') [120 30 0]
+Apr  6 08:59:47 SYSLO65 avahi-daemon[758]: Withdrawing address record for fe80::ff14:59d7:6655:e43b on enp0s3.
+Apr  6 08:59:47 SYSLO65 avahi-daemon[758]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 08:59:47 SYSLO65 avahi-daemon[758]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Apr  6 08:59:47 SYSLO65 NetworkManager[761]: <info>  [1522985387.8747] policy: auto-activating connection 'Wired connection 1'
+Apr  6 08:59:47 SYSLO65 NetworkManager[761]: <info>  [1522985387.8958] device (enp0s3): Activation: starting connection 'Wired connection 1' (0ff998f7-077d-3e78-9949-8637ac0ce86c)
+Apr  6 08:59:47 SYSLO65 NetworkManager[761]: <info>  [1522985387.8968] device (enp0s3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Apr  6 08:59:47 SYSLO65 NetworkManager[761]: <info>  [1522985387.8985] manager: NetworkManager state is now CONNECTING
+Apr  6 08:59:47 SYSLO65 NetworkManager[761]: <info>  [1522985387.9018] device (enp0s3): state change: prepare -> config (reason 'none') [40 50 0]
+Apr  6 08:59:47 SYSLO65 NetworkManager[761]: <info>  [1522985387.9154] device (enp0s3): state change: config -> ip-config (reason 'none') [50 70 0]
+Apr  6 08:59:47 SYSLO65 NetworkManager[761]: <info>  [1522985387.9184] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Apr  6 08:59:47 SYSLO65 NetworkManager[761]: <info>  [1522985387.9266] dhcp4 (enp0s3): dhclient started with pid 3188
+Apr  6 08:59:48 SYSLO65 dhclient[3188]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x7de8636e)
+Apr  6 08:59:49 SYSLO65 avahi-daemon[758]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 08:59:49 SYSLO65 avahi-daemon[758]: New relevant interface enp0s3.IPv6 for mDNS.
+Apr  6 08:59:49 SYSLO65 avahi-daemon[758]: Registering new address record for fe80::ff14:59d7:6655:e43b on enp0s3.*.
+Apr  6 08:59:51 SYSLO65 dhclient[3188]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x7de8636e)
+Apr  6 08:59:58 SYSLO65 dhclient[3188]: DHCPREQUEST of 192.168.0.102 on enp0s3 to 255.255.255.255 port 67 (xid=0x7de8636e)
+Apr  6 09:00:05 SYSLO65 dhclient[3188]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 3 (xid=0xd0004e21)
+Apr  6 09:00:08 SYSLO65 dhclient[3188]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 7 (xid=0xd0004e21)
+Apr  6 09:00:15 SYSLO65 dhclient[3188]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 9 (xid=0xd0004e21)
+Apr  6 09:00:24 SYSLO65 dhclient[3188]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 15 (xid=0xd0004e21)
+Apr  6 09:00:32 SYSLO65 NetworkManager[761]: <warn>  [1522985432.8170] dhcp4 (enp0s3): request timed out
+Apr  6 09:00:32 SYSLO65 NetworkManager[761]: <info>  [1522985432.8171] dhcp4 (enp0s3): state changed unknown -> timeout
+Apr  6 09:00:32 SYSLO65 NetworkManager[761]: <info>  [1522985432.8180] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 3188
+Apr  6 09:00:32 SYSLO65 NetworkManager[761]: <info>  [1522985432.8181] dhcp4 (enp0s3): state changed timeout -> done
+Apr  6 09:00:32 SYSLO65 NetworkManager[761]: <info>  [1522985432.8184] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable') [70 120 5]
+Apr  6 09:00:32 SYSLO65 NetworkManager[761]: <info>  [1522985432.8186] manager: NetworkManager state is now DISCONNECTED
+Apr  6 09:00:32 SYSLO65 NetworkManager[761]: <info>  [1522985432.8188] policy: disabling autoconnect for connection 'Wired connection 1'.
+Apr  6 09:00:32 SYSLO65 NetworkManager[761]: <warn>  [1522985432.8190] device (enp0s3): Activation: failed for connection 'Wired connection 1'
+Apr  6 09:00:32 SYSLO65 NetworkManager[761]: <info>  [1522985432.8311] device (enp0s3): state change: failed -> disconnected (reason 'none') [120 30 0]
+Apr  6 09:00:32 SYSLO65 avahi-daemon[758]: Withdrawing address record for fe80::ff14:59d7:6655:e43b on enp0s3.
+Apr  6 09:00:32 SYSLO65 avahi-daemon[758]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::ff14:59d7:6655:e43b.
+Apr  6 09:00:32 SYSLO65 avahi-daemon[758]: Interface enp0s3.IPv6 no longer relevant for mDNS.
