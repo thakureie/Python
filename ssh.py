@@ -13,11 +13,11 @@ def workon(host):
   stdin.flush()
   
   with outlock:
-	print(stdout.readlines())
+   print(stdout.readlines())
 	
 	
 def main():
-    hosts = ['192.168.0.104'] 
+    hosts = ['192.168.0.103'] 
     threads = []
     for h in hosts:
         t = threading.Thread(target=workon, args=(h,))
