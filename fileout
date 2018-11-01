@@ -1,1 +1,7 @@
-Thi sis test directory
+ams15-opc-c6r308-zfs-1-nfs:/export/admin_01/fsnadmin /fsnadmin nfs rw,bg,intr,hard,timeo=600,rsize=1048576,wsize=1048576,nfsvers=100,tcp,noacl 0 0
+ams15-opc-c6r308-zfs-2-nfs:/export/oracle_wallet_02/wallet_backup/nldx01c060516 /wallet_backup nfs rw,bg,intr,hard,timeo=600,rsize=1048576,wsize=1048576,nfsvers=100,tcp,noacl 0 0
+ams15-opc-c6r308-zfs-2-nfs:/export/p2t_share/db /backup_p2t nfs rw,bg,intr,hard,timeo=600,rsize=1048576,wsize=1048576,nfsvers=100,tcp,noacl,nolock 0 0
+ams15-opc-c6r308-zfs-2-nfs:/export/rman_arch_02/rman_arch /rman_arch nfs rw,bg,nointr,hard,timeo=600,wsize=1048576,rsize=1048576,tcp,vers=3,noacl 0 0
+ams15-opc-c6r511-zfs-2-nfs:/export/rman_backups_saas_02/nldx01c060516_nldx12c060516 /db_backup nfs rw,bg,intr,hard,timeo=600,rsize=1048576,wsize=1048576,nfsvers=100,tcp,noacl 0 0
+ams15-opc-c6r511-zfs-2-nfs:/export/appllog_02/dbadir /u05/dbadir nfs rw,bg,nointr,hard,timeo=600,rsize=1048576,wsize=1048576,nfsvers=100,tcp,noacl 0 0
+ams15-opc-c6r511-zfs-2-nfs:/export/eis_ed_backup_02/ED-LVM-backups /eis_ed_backup   nfs rw,bg,intr,hard,timeo=600,rsize=1048576,wsize=1048576,nfsvers=100,tcp,noacl 0 0
