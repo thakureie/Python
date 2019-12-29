@@ -1,0 +1,58 @@
+
+#This script will set account expiry date for ACtive Directory ldap user
+
+'''
+###################################################################
+#Owner : athakur@enphaseenergy.com
+#Description: will set account expiry date for ACtive Directory ldap user to 90 Days
+#Date : 28-December-2019
+#Version 1.0
+
+###################################################################
+'''
+import subprocess, sys,os,re
+
+print("This Programme will set account expiry date for ACtive Directory ldap user to 90 Days ")
+print("#" * 60)
+print(os.getcwd())
+
+print("Please enter USERNAME in below format : " "\n user1 \n user2 \n user3"  )
+print("*" * 60 )
+print("Use Ctrl+Z to save input AND to Cancel USE Ctrl+c " )
+print("*" * 60 )
+file_path = sys.stdin.readlines()
+print(file_path)
+
+with open('username.txt', 'w') as file4:
+    for line in file_path:
+        if not line.isspace():
+            file4.writelines(line.strip()+ '\n')
+with open('username.txt', "r") as file1:
+    for line in file1.readlines():
+        line1 = line.strip()
+        
+        command_Get_ADUser = "Get-ADUser -Identity " +  line1 + " -Properties AccountExpirationDate"
+        
+        command_Set_ADAccountExpiration = "Set-ADAccountExpiration -Identity " + " " + line1 + " -TimeSpan 97.0:0"
+        
+        print("Setting  expiry date to 3 Months from today for User ",  line )
+        print("# "* 60)
+        print(command_Set_ADAccountExpiration)
+        proc1=subprocess.Popen(['powershell',  command_Set_ADAccountExpiration], stdout=sys.stdout)
+        proc1.wait()
+        print("# "* 60)
+        print("Checking current expiry date for User ",  line )
+        print(command_Get_ADUser)
+        proc=subprocess.Popen(['powershell',  command_Get_ADUser], stdout=subprocess.PIPE)
+         
+
+        log_write_user_expiry =open('logfile-user-expiry.txt', 'ab')  
+        for line2 in proc.stdout:
+            log_write_user_expiry.write(line2)
+        proc.wait()
+        log_write_user_expiry.close()
+
+with open('logfile-user-expiry.txt', 'r') as file2:
+    for line3 in file2.readlines():
+        print(line3, end="")
+print("Check your log file in logfile-user-expiry.txt of your " , os.getcwd())
